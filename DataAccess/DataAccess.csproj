@@ -7,11 +7,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.1" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EFCore.MySql\EFCore.MySql.csproj" />
   </ItemGroup>
 
 </Project>
