@@ -26,7 +26,7 @@ namespace DataAccess.Contexts
 
                 entity.Property(e => e.Name)
                     .IsRequired()
-                    .HasColumnName("position_name")
+                    .HasColumnName("the_name")
                     .HasColumnType("varchar(255)");
 
                 entity.Property(e => e.Order)

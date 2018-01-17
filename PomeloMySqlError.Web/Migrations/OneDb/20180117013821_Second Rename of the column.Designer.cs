@@ -10,9 +10,10 @@ using System;
 namespace PomeloMySqlError.Web.Migrations.OneDb
 {
     [DbContext(typeof(OneContext))]
-    partial class OneContextModelSnapshot : ModelSnapshot
+    [Migration("20180117013821_Second Rename of the column")]
+    partial class SecondRenameofthecolumn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
